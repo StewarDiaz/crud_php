@@ -5,7 +5,7 @@ $nombre_bd = "CrudBd";
 
 try {
 	$bd = new PDO (
-		'mysql:host=database-2.cpu50dft4kyc.us-east-1.rds.amazonaws.com;
+		'mysql:host=database-ejemplo.c1c88adadd1t.us-east-1.rds.amazonaws.com;
 		dbname='.$nombre_bd,
 		$usuario,
 		$contrasena,		
